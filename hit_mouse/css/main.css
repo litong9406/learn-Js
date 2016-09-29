@@ -1,0 +1,143 @@
+*{
+	margin: 0px;
+	height: 0px;
+}
+#main{
+	background: url(../img/game_bg.jpg);
+	background-size:100% 100%;
+	width: 320px;
+	height: 480px;
+	margin: auto;
+	position: relative;
+	margin-top: 30px;
+}
+.progress{
+	width: 180px;
+	height: 16px;
+	background: url(../img/progress.png);
+	position: absolute;
+	top:66px;
+	left: 63.5px;
+}
+.allScore{
+	width: 100px;
+	height: 30px;
+	color: white;
+	position: absolute;
+	text-align: center;
+	line-height: 30px;
+	left: 30px;
+	top: 10px;
+}
+.hit_img{
+	width: 108px;
+	height: 101px;
+	background: url(../img/h.png) no-repeat;
+	display: none;
+	position: absolute;
+}
+.hit_img1{
+	width: 108px;
+	height: 101px;
+	display: none;
+	background: url(../img/x.png) no-repeat;
+	position: absolute;
+	
+	
+}
+#main div:nth-child(1){
+	left:4%;
+	top: 32.5%;
+	
+}
+#main div:nth-child(2){
+	left:28%;
+	top:23%
+}
+#main div:nth-child(3){
+	left: 57%;
+	top:29%;
+}
+#main div:nth-child(4){
+	left:61%;
+	top:43.5%;
+}
+#main div:nth-child(5){
+	left:31%;
+	top:39%
+}
+#main div:nth-child(6){
+	left: 4.8%;
+	top:45%
+}
+#main div:nth-child(7){
+	left: 7.9%;
+	top:60.5%;
+}
+#main div:nth-child(8){
+	left:36%;
+	top: 56%;
+}
+#main div:nth-child(9){
+	left:63%;
+	top:61%;
+}
+.start{
+	width:150px;
+	height: 50px;
+	border: 1px solid gainsboro;
+	border-radius:10% ;
+	background: cyan;
+	position: absolute;
+	top: 70%;
+	left: 28%;
+	opacity: 0.8;
+}
+.start_btn{
+	width: 100%;
+	height: 50px;
+	color: blanchedalmond;
+	line-height: 50px;
+	font-size: 2em;
+	text-align: center;
+}
+.restart{
+	width: 320px;
+	height: 480px;
+	border: 1px solid gainsboro;
+	background: black;
+	opacity: 0.8;
+	display: none;
+}
+.gameover{
+	width: 100%;
+	color: white;
+	font-size: 2em;
+	margin-top:30% ;
+	text-align: center;
+}
+.restart_btn{
+	width: 100%;
+	height: 100px;
+	color: blanchedalmond;
+	line-height: 100px;
+	font-size: 2em;
+	text-align: center;
+}
+.scoring{
+	margin-top:20% ;
+	width: 100%;
+	height: 50px;
+	color:red;
+	line-height: 50px;
+	text-align: center;
+	background: palegreen;
+	font-size: 2em;
+	}
+.close{
+	width: 100%;
+	height: 50px;
+	color: palevioletred;
+	font-size: 2em;
+	text-align: center;
+}
